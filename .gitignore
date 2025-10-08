@@ -1,0 +1,47 @@
+# OS / UI
+.DS_Store
+Thumbs.db
+
+# Editors / IDE
+.vscode/
+.idea/
+
+# Logs & temp
+*.log
+logs/
+tmp/
+dist/
+coverage/
+
+# Node 
+node_modules/
+
+# Docker / Compose
+*.env
+.env.*
+!.env.example
+docker-data/
+**/data/
+**/.cache/
+
+# n8n
+.n8n/
+.backups/
+**/n8n/.cache/
+
+# K8s / k3d
+kubeconfig
+**/k3d-*/       
+**/*.bak
+**/*.tmp
+
+# Images / Large Artifacts
+*.mp4
+*.mov
+*.zip
+*.tgz
+*.gz
+
+# OS metadata
+ehthumbs.db
+Desktop.ini
